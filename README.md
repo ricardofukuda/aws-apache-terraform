@@ -8,5 +8,5 @@
 - InternetGateway for public subnet and NatGateway for private subnet isolation;
 - Route53 public hosted zone to alias CloudFront Distribution dns for fast content delivery;
 - CloudFront Distribution with two origins:
-* Path "/static/" to provide access and cache to static files from private S3 Bucket;
-* Path "/" to foward request to the Application Load Balancer;
+  - Path "/static/" to provide access and cache to static files from private S3 Bucket;
+  - Path "/" to foward request to the Application Load Balancer;
