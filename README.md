@@ -1,6 +1,6 @@
 # Terraform for Apache webserver on AWS
 
-##Contains:
+## Contains:
 - VPC with private and public subnets (total 4 subnets because uses secondary AZ for high availability);
 - EC2 instances running Apache webserver (in private subnet);
 - Application Load Balancer (in public subnet);
